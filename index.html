@@ -1,0 +1,99 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101111">
+  <meta name="description" content="Koge>e Guajiro: el encuentro entre el café de altura y el paisaje guajiro. El gusto de hacer una pausa.">
+  <title>Koge&gt;e Guajiro — El gusto de hacer una pausa</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <a class="wordmark" href="#inicio" aria-label="Koge mayor que e Guajiro, inicio"><span class="brand-koge">Koge&gt;e</span> <span class="brand-guajiro">Guajiro</span></a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+      <a class="nav-pill nav-berry" href="#cafe">Nuestro Café</a>
+      <a class="nav-pill nav-ochre" href="#cafe">Tienda</a>
+      <a class="nav-pill nav-teal" href="#origen">Historia</a>
+      <a class="nav-pill nav-berry" href="#contacto">Contacto</a>
+    </nav>
+    <div class="header-actions" aria-label="Accesos rápidos">
+      <a class="round-action cart-action" href="#cafe" aria-label="Carrito de compras"><span aria-hidden="true">♧</span><small>CARRITO</small></a>
+      <a class="round-action account-action" href="#contacto" aria-label="Cuenta"><span aria-hidden="true">♙</span><small>CUENTA</small></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title"><span>Café de</span> <em>Origen:</em><br><strong>Guajiro</strong></h1>
+        <p class="hero-message">Koge&gt;e Guajiro: el secreto sagrado de la Sierra Nevada directo en tu taza</p>
+        <p class="hero-submessage">Sol, viento y tradición en cada taza. Un café que sabe a La Guajira.</p>
+        <div class="hero-actions">
+          <a class="button hero-buy" href="#cafe">Comprar café</a>
+          <a class="button hero-story" href="#origen">Conoce nuestra historia</a>
+        </div>
+      </div>
+      <div class="hero-showcase"><img src="assets/hero-collage.png" alt="Café Koge>e Guajiro en su empaque negro, acompañado de granos e ilustraciones del proceso artesanal" fetchpriority="high"></div>
+      <aside class="alt-presentations" aria-label="Presentaciones alternas de Koge>e Guajiro">
+        <h2>Presentaciones<br>alternas</h2>
+        <img class="alt-cup" src="assets/presentacion-vaso.png" alt="Vaso para café Koge>e Guajiro" fetchpriority="high">
+        <img class="alt-mug" src="assets/presentacion-taza.png" alt="Taza de cerámica Koge>e Guajiro" fetchpriority="high">
+      </aside>
+    </section>
+
+    <section class="origin section-pad" id="origen" aria-labelledby="origin-title">
+      <div class="section-kicker"><span>01 / El origen</span><span>Naturaleza · Territorio · Identidad</span></div>
+      <div class="origin-grid">
+        <div class="origin-title-wrap">
+          <p class="eyebrow dark-eyebrow">Una historia de encuentros</p>
+          <h2 id="origin-title">De la altura<br>al <em>horizonte.</em></h2>
+        </div>
+        <div class="origin-text">
+          <p>Koge&gt;e Guajiro nace del encuentro simbólico entre las montañas donde se cultiva el café y la esencia cálida del desierto guajiro.</p>
+          <p>Una celebración de los paisajes, la resistencia de su vegetación y la riqueza artesanal del territorio. Dos mundos distintos que comparten algo profundo: la autenticidad de sus raíces.</p>
+          <span class="origin-signature">La tierra deja su huella.</span>
+        </div>
+      </div>
+      <div class="origin-image"><img src="assets/paisaje-guajiro.png" alt="Las montañas verdes emergen entre las tierras cálidas de La Guajira" loading="lazy"><span>Un territorio, muchas formas de encontrarse.</span></div>
+    </section>
+
+    <section class="pause" id="ritual" aria-labelledby="pause-title">
+      <div class="pause-mark" aria-hidden="true">“</div>
+      <p class="eyebrow">02 / El ritual</p>
+      <h2 id="pause-title">Lo demás puede<br>esperar <em>una taza.</em></h2>
+      <p class="pause-copy">Hablar como quien invita: con calidez, serenidad y sin prisa.</p>
+      <a class="button button-light" href="#cafe">Descubre Koge&gt;e <span aria-hidden="true">↗</span></a>
+      <div class="pause-orbit orbit-one" aria-hidden="true"></div><div class="pause-orbit orbit-two" aria-hidden="true"></div>
+    </section>
+
+    <section class="coffee section-pad" id="cafe" aria-labelledby="coffee-title">
+      <div class="section-kicker"><span>03 / El café</span><span>Una firma para el ritual</span></div>
+      <div class="coffee-grid">
+        <div class="coffee-image"><img src="assets/empaques-solos.png" alt="Empaques de café Koge>e Guajiro, vista frontal y posterior" loading="lazy"></div>
+        <div class="coffee-copy">
+          <p class="eyebrow">Koge&gt;e Guajiro</p>
+          <h2 id="coffee-title">Una pausa<br>con <em>carácter.</em></h2>
+          <p>Un café artesanal de especialidad que celebra la unión entre la altura y el desierto. Hecho para disfrutar sin apuro, taza a taza.</p>
+          <a class="button button-dark" href="#contacto">Hablemos de café <span aria-hidden="true">↗</span></a>
+          <p class="product-note">Las presentaciones y los datos comerciales del producto se confirmarán antes de su publicación.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing" id="contacto">
+      <p class="eyebrow">Koge&gt;e Guajiro</p>
+      <h2>Haz una pausa.<br><em>Vuelve a la tierra.</em></h2>
+      <a class="text-link" href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark" href="#inicio"><img src="assets/logo-koge-guajiro.png" alt="Koge>e Guajiro"></a><span>El gusto de hacer una pausa.</span><span>© <span id="year"></span> Koge&gt;e Guajiro</span></footer>
+</body>
+</html>
+
+
+
+
